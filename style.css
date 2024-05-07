@@ -1,27 +1,21 @@
 .main{
   display: flex;
-  flex-direction: row;
   }
 
 
 .sidebar{
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: center;
+  background-color: blue;
+  width: 200px;
  }     
 
-.sidebar h1{
-  margin:0;
-  padding: 20px;
-}
-
-.sidebar li {
-  list-style-type: none;
+ .sidebar-nav{
+  list-style-type: none !important;
   padding: 0;
   margin: 0;
-}
-.sidebar li:before {
-  content: "➤ "; 
-  margin-right: 10px;
+ }
+
+ .sidebar-nav li {
+  padding: 10px 0;
 }
